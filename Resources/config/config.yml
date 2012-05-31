@@ -1,0 +1,6 @@
+# Stof Doctrine Extensions
+stof_doctrine_extensions:
+    orm:
+      default:
+    default_locale: en_GB
+      timestampable: true
