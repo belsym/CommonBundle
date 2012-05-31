@@ -1,0 +1,25 @@
+{
+    "name": "beldougie/beldougie-common-bundle",
+    "type": "symfony-bundle",
+    "description": "A collection of classes commonly used throughout my projects",
+    "keywords": ["abstract", "entities", "doctrine2", "doctrine-extensions", "doctrine-fixtures"],
+    "homepage": "https://github.com/beldougie/CommonBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Keeble",
+            "email": "matt@beldougie.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.1.*",
+        "gedmo/doctrine-extensions": ">=2.3-dev",
+        "stof/doctrine-extensions-bundle":	"1.0.2",
+        "doctrine/doctrine-fixtures-bundle": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-0": { "Beldougie\\CommonBundle": "" }
+    },
+    "target-dir": "Beldougie/CommonBundle"
+}
