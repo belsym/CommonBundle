@@ -1,4 +1,4 @@
 CommonBundle
 ============
 
-A bundle that contains classes that are commonly used within my projects
+A collection of classes commonly used throughout my projects
