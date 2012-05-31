@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.3.2",
         "stof/doctrine-extensions-bundle":	"1.0.2",
-        "doctrine/doctrine-fixtures-bundle": "2.0.x-dev"
+        "doctrine/doctrine-fixtures-bundle": "2.0.1"
     },
     "autoload": {
         "psr-0": { "Beldougie\\CommonBundle": "" }
