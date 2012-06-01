@@ -1,6 +1,12 @@
+# Doctrine Configuration
+doctrine:
+  dbal:
+    mapping_types:
+          enum: string
+            
 # Stof Doctrine Extensions
 stof_doctrine_extensions:
-    orm:
-      default:
-    default_locale: en_GB
-      timestampable: true
+  orm:
+    default:
+  default_locale: en_GB
+    timestampable: true 
