@@ -30,6 +30,17 @@ So, the BaseLookup makes it easy to add lookup or reference tables to your datab
 #### How to use
  TODO
 
+## DBAL Types
+### EnumType
+TODO
+
+## Abstract TestCases
+### BaseDatabaseTestCase 
+TODO
+
+### BaseFixtureLoadingTestCase
+TODO
+
 # Installation
 ## Obtain the Bundle 
 add the requirement to your composer.json

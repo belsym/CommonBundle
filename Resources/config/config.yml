@@ -1,8 +1,6 @@
 # Doctrine Configuration
 doctrine:
   dbal:
-    types:
-      enumtransactiontype: Beldougie\CommonBundle\DBAL\Types\EnumTransactionType
     connections:
       default:
         mapping_types: 
