@@ -7,8 +7,6 @@ use Doctrine\ORM\Tools\SchemaTool;
 
 use PHPUnit_Framework_TestCase;
 
-require_once dirname(__DIR__)."/../../../../app/AppKernel.php";
-
 /**
  * @author Matt Keeble
  *
