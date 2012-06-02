@@ -1,12 +1,17 @@
 # Doctrine Configuration
 doctrine:
   dbal:
-    mapping_types:
-          enum: string
-            
-# Stof Doctrine Extensions
-stof_doctrine_extensions:
+    types:
+      enumtransactiontype: Beldougie\CommonBundle\DBAL\Types\EnumTransactionType
+    connections:
+      default:
+        mapping_types: 
+          enum: string 
   orm:
-    default:
-  default_locale: en_GB
-    timestampable: true 
+    default_entity_manager: default
+    entity_managers:
+      default:
+        connection: default
+        mappings:
+          BeldougieCommonBundle: ~
+

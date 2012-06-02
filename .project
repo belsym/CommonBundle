@@ -22,7 +22,7 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.dubture.composer.core.composerNature</nature>
 		<nature>org.eclipse.php.core.PHPNature</nature>
+		<nature>com.dubture.composer.core.composerNature</nature>
 	</natures>
 </projectDescription>
