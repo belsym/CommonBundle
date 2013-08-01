@@ -1,5 +1,5 @@
 {
-    "name": "beldougie/beldougie-common-bundle",
+    "name": "belsym/common-bundle",
     "type": "symfony-bundle",
     "description": "A collection of classes commonly used throughout my projects",
     "keywords": ["abstract", "entities", "doctrine2", "doctrine-extensions", "doctrine-fixtures"],
